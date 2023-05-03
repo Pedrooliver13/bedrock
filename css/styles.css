@@ -9,6 +9,7 @@
 @import "./components/layout/footer.css";
 
 /* components */
+@import "./components/sections.css";
 @import "./components/core/button.css";
 @import "./components/core/card.css";
 
@@ -79,3 +80,28 @@
     margin: 2rem auto;
   }
 }
+
+.content {
+  padding-top: 2rem;
+  margin-bottom: 1rem;  
+  padding-right: 2rem;
+}
+
+.ulAboutUs {
+  list-style-type: square;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+}
+
+li {
+  padding: 1rem 0;
+}
+
+/* esse aq é so pra aumentar o tamanho da bola HAHAHAHHA */
+li::marker {
+  content: ❤;
+  font-size: 2.5rem;
+}
+
+
+
