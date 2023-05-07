@@ -4,7 +4,6 @@
   justify-content: space-between;
   margin-top: 8rem;
   margin-bottom: 1rem;
-
   padding: 0 1.6rem;
 }
 
@@ -16,6 +15,7 @@
 .section-main__content--description p {
   font-size: 1.8rem;
   line-height: 2.6rem;
+  font-weight: 200;
 }
 
 .section-main__content--button {
