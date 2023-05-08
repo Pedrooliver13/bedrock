@@ -29,12 +29,12 @@
   justify-self: flex-end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .menu .menu__content .menu__content--nav {
     display: none;
   }
 
   .menu .menu__login {
-    width: 150px;
+    width: 100px;
   }
 }
