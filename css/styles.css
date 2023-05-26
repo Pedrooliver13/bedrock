@@ -1,17 +1,17 @@
 /* templates */
-@import "./base/constants.css";
-@import "./base/reset.css";
-@import "./base/container.css";
+@import './base/constants.css';
+@import './base/reset.css';
+@import './base/container.css';
 
 /* layout */
-@import "./components/layout/header.css";
-@import "./components/layout/section-main.css";
-@import "./components/layout/footer.css";
+@import './components/layout/header.css';
+@import './components/layout/section-main.css';
+@import './components/layout/footer.css';
 
 /* components */
-@import "./components/sections.css";
-@import "./components/core/button.css";
-@import "./components/core/card.css";
+@import './components/sections.css';
+@import './components/core/button.css';
+@import './components/core/card.css';
 
 .about-us {
   display: flex;
@@ -36,8 +36,8 @@
 }
 
 .about-us__content--text {
-  margin-bottom: 3.4rem; 
-  line-height: 2; 
+  margin-bottom: 3.4rem;
+  line-height: 2;
 }
 
 .about-us .about-us__content--list {
@@ -96,11 +96,11 @@
 }
 
 @media (max-width: 768px) {
-  .prices .prices__header.flex, .about-us {
+  .prices .prices__header.flex,
+  .about-us {
     flex-direction: column-reverse;
     align-items: center;
     gap: 2.5rem;
-    
   }
 
   .prices .prices__header--title {
@@ -112,11 +112,11 @@
     display: none;
   }
 
-  .prices .prices__header--title h3, .about-us__content--title  {
+  .prices .prices__header--title h3,
+  .about-us__content--title {
     font-size: 2.8rem;
     width: 100%;
     margin: 2.5rem auto;
-
   }
 
   .prices .prices__header img {
@@ -124,28 +124,3 @@
     margin: 2rem auto;
   }
 }
-
-.content {
-  padding-top: 2rem;
-  margin-bottom: 1rem;  
-  padding-right: 2rem;
-}
-
-.ulAboutUs {
-  list-style-type: square;
-  font-size: 2.5rem;
-  margin-top: 4rem;
-}
-
-li {
-  padding: 1rem 0;
-}
-
-/* esse aq é so pra aumentar o tamanho da bola HAHAHAHHA */
-li::marker {
-  content: ❤;
-  font-size: 2.5rem;
-}
-
-
-
