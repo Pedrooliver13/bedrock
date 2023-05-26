@@ -9,7 +9,6 @@
 @import './components/layout/footer.css';
 
 /* components */
-@import './components/sections.css';
 @import './components/core/button.css';
 @import './components/core/card.css';
 
@@ -37,12 +36,20 @@
 
 .about-us__content--text {
   margin-bottom: 3.4rem;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .about-us .about-us__content--list {
   list-style: square;
   margin-left: 30px;
+}
+
+.about-us .about-us__content--list li {
+  padding: 1rem 0;
+}
+
+.about-us .about-us__content--list li::marker {
+  font-size: 2.5rem;
 }
 
 .about-us__content span {
